@@ -1,1 +1,1 @@
-# All my Python projects are in that repo.
+# All my personal Python projects are in that repo.
