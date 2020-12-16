@@ -36,12 +36,10 @@ def main():
     if typing == "c":
      print("Please type your command with the following operators : +, -, *, **, % or /")
      inputcalc = str(input(" "))
-
      try:
         inputcalc2 = eval(inputcalc)
      except NameError:  # this is because when a casting to int fails, it calls xxxError
          errormessage()
-
      inputcalc = eval(inputcalc)
      print(inputcalc)
      history.append(inputcalc)
