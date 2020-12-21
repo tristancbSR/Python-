@@ -7,16 +7,14 @@ def welcomescreen():
     print("___[calculate : c]___[shutdown : s]___[answers history : h]______________________________________")
     print("[available operators : + (plus), - (minus), * (x) , %, & and / (divide) ]________________________")
     print("_________________________________________________________________________________________________")
-
 def place():
     for i in range(150):
-        print("                                                                                           ")
+        print("")
 def errormessage():
     print("Synthax error : please retry")
     input("Press Enter to continue")
     place()
     main()
-
 def main():
     place()
     welcomescreen()
@@ -32,7 +30,6 @@ def main():
      else :
          place()
          main()
-
     if typing == "c":
      print("Please type your command with the following operators : +, -, *, **, % or /")
      inputcalc = str(input(" "))
@@ -48,7 +45,6 @@ def main():
      input("Press Enter to continue")
      place()
      main()
-
     if typing == "h":
         print("Answers History :")
         print(history)
